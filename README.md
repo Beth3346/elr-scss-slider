@@ -1,6 +1,5 @@
 # elr-scss-slider
 
-[![Build Status](https://travis-ci.com/Beth3346/elr-scss-slider.svg?branch=master)](https://travis-ci.com/Beth3346/elr-scss-slider)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-slider.svg?style=flat)](https://npmjs.com/package/elr-scss-slider)
 
