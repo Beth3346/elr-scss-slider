@@ -1,4 +1,6 @@
 @import "elr-scss-functions/src/main";
+@import "elr-scss-config/src/main";
+
 // Simple Slider
 // TODO: Make this responsive!!
 // TODO: Refactor!!
@@ -22,13 +24,11 @@
   height: $height;
   overflow: hidden;
 
-  // @include elr-clearfix;
-
-  &.slide-left .elr-simple-slide {
+  &.slide-left .simple-slide {
     float: left;
   }
 
-  .elr-simple-slide-holder {
+  .simple-slide-holder {
     @include elr-clearfix;
     padding: 0;
     margin: 0;
@@ -37,7 +37,7 @@
     height: $height;
   }
 
-  .elr-simple-slide {
+  .simple-slide {
     padding: 0;
     margin: 0;
     z-index: 0;
@@ -70,7 +70,7 @@
     }
   }
 
-  .elr-simple-slider-list {
+  .simple-slider-list {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -109,7 +109,7 @@
     }
   }
 
-  .elr-simple-slider-nav {
+  .simple-slider-nav {
     // @include elr-clearfix;
     // @include elr-centerer(
     //   $config: (
@@ -140,11 +140,11 @@
       }
     }
 
-    .elr-simple-slide-prev {
+    .simple-slide-prev {
       float: left;
     }
 
-    .elr-simple-slide-next {
+    .simple-slide-next {
       float: right;
     }
   }
