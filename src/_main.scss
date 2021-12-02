@@ -22,7 +22,7 @@
   height: $height;
   overflow: hidden;
 
-  @include elr-clearfix;
+  // @include elr-clearfix;
 
   &.slide-left .elr-simple-slide {
     float: left;
@@ -86,11 +86,11 @@
     }
 
     button {
-      @include elr-circle(
-        $config: (
-          diameter: 10px,
-        )
-      );
+      // @include elr-circle(
+      //   $config: (
+      //     diameter: 10px,
+      //   )
+      // );
       background-color: rgba($white, 0.5);
       padding: 0;
       margin: 0;
@@ -110,24 +110,24 @@
   }
 
   .elr-simple-slider-nav {
-    @include elr-clearfix;
-    @include elr-centerer(
-      $config: (
-        vertical: true,
-        horizontal: false,
-      )
-    );
+    // @include elr-clearfix;
+    // @include elr-centerer(
+    //   $config: (
+    //     vertical: true,
+    //     horizontal: false,
+    //   )
+    // );
     margin: 0;
     padding: 0;
     width: 100%;
     z-index: 1;
 
     button {
-      @include elr-square(
-        $config: (
-          width: 64px,
-        )
-      );
+      // @include elr-square(
+      //   $config: (
+      //     width: 64px,
+      //   )
+      // );
       padding: 0;
       margin: 0;
       border: 0;
